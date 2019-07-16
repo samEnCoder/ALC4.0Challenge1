@@ -7,6 +7,7 @@ import  android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -32,5 +33,11 @@ public class About extends AppCompatActivity {
              }
         });
         webView.loadUrl(url);
+
+    }
+
+    public void goToHome (View view){
+        Intent intent = new Intent (this, MainActivity.class);
+        startActivity(intent);
     }
 }
