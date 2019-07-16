@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Andela LC 4.0</string>
+    <string name="about_alc">About ALC</string>
+    <string name="button">Button</string>
+    <string name="welcome_to_andela_4_0">Welcome to Andela 4.0</string>
+    <string name="my_profile">My Profile</string>
+    <string name="todo">TODO</string>
+    <string name="samuel_ntongai">Samuel Ntongai</string>
+    <string name="track_android">Track: Android</string>
+    <string name="country_kenya">Country: Kenya</string>
+    <string name="email_samnto21_gmail_com">Email: samnto21@gmail.com</string>
+    <string name="phone_number_254702614724">Phone Number: 254702614724</string>
+    <string name="slack_username_sirmy">Slack UserName: sirmy</string>
+    <string name="andela_4_phase_1">Andela 4 Phase 1</string>
+    <string name="string_andela_4_phase_1">string/andela_4_phase_1</string>
+</resources>

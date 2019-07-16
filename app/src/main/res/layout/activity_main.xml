@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar1"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginBottom="107dp"
+        android:background="@color/color4"
+        android:elevation="4dp"
+        android:label="@string/string_andela_4_phase_1"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Andela 4 Phase 1"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:titleTextColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="114dp"
+        android:text="@string/welcome_to_andela_4_0"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Welcome to Andela 4.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="goToPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/about_alc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="goToProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="80dp"
+        android:text="@string/my_profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.058" />
+</android.support.constraint.ConstraintLayout>
